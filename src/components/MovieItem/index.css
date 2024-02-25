@@ -1,0 +1,38 @@
+.thumbnailUrl {
+  height: 200px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.modal {
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 90%;
+  padding: 40px;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+  color: #231f20;
+  background: #ffffff;
+  border-radius: 18px;
+}
